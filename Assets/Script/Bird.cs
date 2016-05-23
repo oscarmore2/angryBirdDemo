@@ -44,8 +44,13 @@ public class Bird : MonoBehaviour {
 		}
 
 
-		if (transform.localPosition.x < 1.1f && !ForceStart)
+		if (transform.localPosition.x < 1.1f && !ForceStart) {
 			transform.localPosition = EndPoint.localPosition + Vector3.right * 0.5f;
+		}
+
+		if (transform.position.y < 1.2f) {
+			ForceStart = false;
+		}
 		
 	}
 
