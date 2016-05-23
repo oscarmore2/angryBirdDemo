@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Bird.cs">
+    <Files>
+      <File FileName="Assets/Script/LookDir.cs" Line="16" Column="42" />
+      <File FileName="Assets/Script/Spring.cs" Line="25" Column="95" />
+      <File FileName="Assets/Script/springPoint.cs" Line="42" Column="36" />
+      <File FileName="Assets/Script/Bird.cs" Line="43" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

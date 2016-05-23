@@ -19,15 +19,15 @@ public class Spring : MonoBehaviour {
 
 	void FixedUpdate()
 	{
+		
+	}
+
+	// Update is called once per frame
+	void Update () {
 		Vector3 pos = (Branch.transform.localPosition + endpoint.transform.localPosition) / 2;
 		this.gameObject.transform.localPosition = pos ;
 		this.transform.rotation = endpointLook.rotation;
 		float scale = (Branch.transform.localPosition - endpoint.transform.localPosition).magnitude;
 		this.transform.localScale = new Vector3 (transform.localScale.x, transform.localScale.y, scale);
-	}
-
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
